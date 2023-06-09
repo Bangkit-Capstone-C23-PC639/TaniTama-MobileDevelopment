@@ -90,6 +90,10 @@ class CameraActivity : AppCompatActivity() {
         binding.selectFromGalleryButton.setOnClickListener {
             selectImageFromGallery()
         }
+
+        binding.cancelButton.setOnClickListener {
+            finish()
+        }
     }
 
     private fun detectAndPassResult(file: File) {
