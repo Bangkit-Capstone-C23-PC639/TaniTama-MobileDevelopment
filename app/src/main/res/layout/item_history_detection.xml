@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="20dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/ivDisease"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:src="@color/black"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvDisease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil diagnosa"
+            android:fontFamily="@font/nunito_regular"
+            android:textSize="12sp"
+            android:textColor="@color/blue_donk"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
