@@ -3,7 +3,7 @@
 
     <style name="Theme.AppSplash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#087F5B</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/vec_tani</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
         <item name="windowSplashScreenAnimationDuration">300</item>
         <item name="postSplashScreenTheme">@style/Theme.Tanitama</item>
 
