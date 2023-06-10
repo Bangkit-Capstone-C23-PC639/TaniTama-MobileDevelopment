@@ -1,140 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:padding="24dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:text="Username"
         android:fontFamily="@font/nunito_bold"
+        android:text="Username"
         android:textColor="#113B59"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:boxCornerRadiusBottomStart="6dp"
+        android:layout_marginTop="16dp"
+        app:boxBackgroundColor="#D9D9D9"
         app:boxCornerRadiusBottomEnd="6dp"
+        app:boxCornerRadiusBottomStart="6dp"
         app:boxCornerRadiusTopEnd="6dp"
         app:boxCornerRadiusTopStart="6dp"
-        android:layout_marginStart="24dp"
-        app:boxBackgroundColor="#D9D9D9"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
         tools:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:text="Email"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/nunito_bold"
+        android:text="Email"
         android:textColor="#113B59"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:boxCornerRadiusBottomStart="6dp"
+        android:layout_marginTop="16dp"
+        app:boxBackgroundColor="#D9D9D9"
         app:boxCornerRadiusBottomEnd="6dp"
+        app:boxCornerRadiusBottomStart="6dp"
         app:boxCornerRadiusTopEnd="6dp"
         app:boxCornerRadiusTopStart="6dp"
-        android:layout_marginStart="24dp"
-        app:boxBackgroundColor="#D9D9D9"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
         tools:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:text="Password"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/nunito_bold"
+        android:text="Password"
         android:textColor="#113B59"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:boxCornerRadiusBottomStart="6dp"
+        android:layout_marginTop="16dp"
+        app:boxBackgroundColor="#D9D9D9"
         app:boxCornerRadiusBottomEnd="6dp"
+        app:boxCornerRadiusBottomStart="6dp"
         app:boxCornerRadiusTopEnd="6dp"
         app:boxCornerRadiusTopStart="6dp"
-        app:boxBackgroundColor="#D9D9D9"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        tools:hintEnabled="false"
-        app:endIconTint="@color/black">
+        app:endIconTint="@color/black"
+        tools:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="@color/black" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:text="Confirm Password"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/nunito_bold"
+        android:text="Confirm Password"
         android:textColor="#113B59"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutConfPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:boxCornerRadiusBottomStart="6dp"
+        android:layout_marginTop="16dp"
+        app:boxBackgroundColor="#D9D9D9"
         app:boxCornerRadiusBottomEnd="6dp"
+        app:boxCornerRadiusBottomStart="6dp"
         app:boxCornerRadiusTopEnd="6dp"
         app:boxCornerRadiusTopStart="6dp"
-        app:boxBackgroundColor="#D9D9D9"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
-        tools:hintEnabled="false"
-        app:endIconTint="@color/black">
+        app:endIconTint="@color/black"
+        tools:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etConfPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="@color/black" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -142,17 +132,15 @@
         android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="24dp"
-        android:text="Daftar"
         android:layout_gravity="end"
-        android:fontFamily="@font/nunito_bold"
-        android:textSize="20sp"
-        app:cornerRadius="6dp"
+        android:layout_marginTop="50dp"
         android:backgroundTint="#469862"
-        android:textColor="@color/white"
         android:enabled="false"
-        android:textAllCaps="false" />
+        android:fontFamily="@font/nunito_bold"
+        android:text="Daftar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="6dp" />
 
 </LinearLayout>
