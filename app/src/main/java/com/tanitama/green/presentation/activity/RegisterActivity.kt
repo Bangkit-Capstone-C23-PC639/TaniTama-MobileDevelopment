@@ -28,7 +28,7 @@ class RegisterActivity : AppCompatActivity() {
             authViewModel.registerUser(RegisterRequestBody(userName, email, password, confPassword))
         }
 
-        binding.tvLogin.setOnClickListener {
+        binding.tvMasuk.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
