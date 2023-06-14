@@ -46,6 +46,8 @@ class DetailHistoryActivity : AppCompatActivity() {
             binding.tvNamaPenyakit.text = disease?.name
             binding.tvDeskripsiPenyakit.text = disease?.description
 
+            binding.tvRekomendasiPenanganan.text = disease?.recomendation
+
             Glide.with(this)
                 .load(imageLink)
                 .into(binding.ivPenyakit)
