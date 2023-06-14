@@ -19,7 +19,6 @@ class HasilDetectionActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-
         val intent = intent
         val detectionsResponse: DetectionsResponse? = intent.getParcelableExtra("detectionsResponse")
 
@@ -31,6 +30,8 @@ class HasilDetectionActivity : AppCompatActivity() {
 
         binding.tvDescription.text = detectionsResponse?.data?.result?.name
         binding.tvDeskripsiPenyakit.text = detectionsResponse?.data?.result?.description
+
+        binding.tvRekomendasiPenanganan.text = detectionsResponse?.data?.result?.recomendation
 
 
         binding.backButton.setOnClickListener {
